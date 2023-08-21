@@ -1,3 +1,5 @@
 1.  Scaffold a new express app using 'express -e foldername' in terminal
 2.  Go into project folder and install node packages using 'npm i' in terminal
-3.  
+3.  Setup preferred structure by creating controllers, models, and routes (if not already there) folders
+4.  Change app.js to server.js and also update 'www' file in bin folder to require 'server' instead of 'app'
+5.  Add data file in models folder (singlular nomenclature for file name)
