@@ -24,5 +24,5 @@ function getOne(id) {
 }
 
 function getAll() {
-    return books;
+    return skills;
 }

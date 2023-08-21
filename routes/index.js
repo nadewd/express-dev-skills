@@ -3,7 +3,8 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  // redirects always make a GET request
+  res.redirect('/skills');
 });
 
 module.exports = router;
