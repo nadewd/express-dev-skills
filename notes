@@ -1,0 +1,4 @@
+MVC pattern
+
+Entry point is server.js when a request is sent (where the middleware lives)
+After the request gets routed using the routes in the server
